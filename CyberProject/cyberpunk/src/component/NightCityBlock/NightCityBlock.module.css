@@ -1,0 +1,37 @@
+.nightCity{
+    width: 1920px;
+    height: 777px;
+
+    padding-left: 150px;
+    padding-top: 70px;
+
+}
+
+.nightCityText{
+    font-family: Archangelsk;
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.descriptionCyberpunk{
+    margin-top: 30px;
+
+    width: 800px;
+    height: 125px;
+}
+
+.images{
+    margin-top: 30px;
+    display: flex;
+}
+
+.imageCol1{
+    flex: 1;
+    flex-direction: column;
+    column-gap: 40px;
+}
+.imageCol2{
+    flex: 3;
+    flex-direction: column;
+}
+

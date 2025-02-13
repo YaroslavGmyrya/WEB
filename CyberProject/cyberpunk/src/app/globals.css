@@ -1,0 +1,46 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+	font-family: 'Archangelsk';
+	src: url('../fonts/archangelsk.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/archangelsk.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/archangelsk.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/archangelsk.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/archangelsk.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/archangelsk.svg#archangelsk') format('svg'); /* Chrome < 4, Legacy iOS */
+}

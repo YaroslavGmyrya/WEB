@@ -1,0 +1,58 @@
+.buyBlock{
+    display: flex;
+    width: 1920px;
+    height: 717px;
+}
+
+.buyGame{
+    padding-left: 35px;
+    padding-top: 75px;
+    width: 976px;
+    height: 717px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+}
+
+.buyText{
+    color:white;
+    width: 624px;
+    height: 126px;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+}
+
+.gameSet{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.setDescription{
+    color:rgba(82, 190, 220, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.choicePlatform{
+    padding-top: 20px;
+    width: 319px;
+    height: 186.27px;
+    display: flex;
+    flex-direction: column;
+    gap:50px
+}
+
+.row{
+    display: flex;
+    gap:80px
+}
